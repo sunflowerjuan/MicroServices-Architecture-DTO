@@ -6,9 +6,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'primereact/resources/primereact.css';
 import 'primeflex/primeflex.css';
 
-import Home from '../Home';
-import AllCustomers from './AllCustomers';
-import SaveCustomer from './SaveCustomer';
+import Home from './Home';
+import AllCustomers from './service/AllCustomers';
+import SaveCustomer from './service/SaveCustomer';
 
 export default function Menu() {
   return (
