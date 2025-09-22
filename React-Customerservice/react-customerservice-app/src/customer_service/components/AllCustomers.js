@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {CustomerService} from "./CustomerService";
+import {CustomerService} from "../CustomerService";
 import {DataTable} from 'primereact/datatable';
 import {Column} from 'primereact/column';
 

@@ -10,4 +10,7 @@ export class CustomerService {
     saveCustomer(value) {
         return axios.post(this.baseUrl, value).then(res => res.data);
     }
+    deleteCustomer(id) {
+    return axios.delete(`${this.baseUrl}/${id}`).then((res) => res.data);
+  }
 }

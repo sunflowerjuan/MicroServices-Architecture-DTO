@@ -7,8 +7,8 @@ import 'primereact/resources/primereact.css';
 import 'primeflex/primeflex.css';
 
 import Home from './Home';
-import AllCustomers from './service/AllCustomers';
-import SaveCustomer from './service/SaveCustomer';
+import AllCustomers from './customer_service/components/AllCustomers'
+import SaveCustomer from './customer_service/components/SaveCustomer';
 
 export default function Menu() {
   return (
