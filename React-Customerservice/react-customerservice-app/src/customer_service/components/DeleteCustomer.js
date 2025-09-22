@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { CustomerService } from "..CustomerService";
+import { CustomerService } from "../CustomerService";
 import { Panel } from "primereact/panel";
 
 function DeleteCustomer() {
